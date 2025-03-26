@@ -29,5 +29,5 @@ def all_prime_factors(n):
             factors.append(i)
     return factors
 
-n=int(input("Enter number: "))
+n=int(input("Enter number:"))
 print("The prime factors of given number are ",all_prime_factors(n))
